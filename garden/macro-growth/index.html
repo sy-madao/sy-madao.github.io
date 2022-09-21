@@ -200,7 +200,7 @@ c_t&amp;=(1-s)y_t \\
 &amp;=A_t[f(k^{\ast})-(n+g+\delta)k^{\ast}]
 \end{aligned}$$
 So we can get the $s_{gold}$ is the unique value such that</p>
-<p>$$f&rsquo;(k^{\ast})=n+g+\delta$$</p>
+<p>$$f^\prime(k^{\ast})=n+g+\delta$$</p>
 <p>欲使每个人的消费达到最大，则对每个人的资本两的选择应使的边际产出等于劳动的增长率</p>
 <h2 id="i7-empirical-analysis-of-chinas-economic-growth">I.7 Empirical Analysis of China&rsquo;s Economic Growth</h2>
 <p>From 1965 to 2008, the contribution of technological progress to China&rsquo;s GDP growth rate gradually increased. However, after the subprime crisis, its contribution fell sharply and became the main cause of the economic slowdown.</p>
@@ -249,6 +249,8 @@ So we can get the $s_{gold}$ is the unique value such that</p>
 <li><strong>control variable</strong></li>
 <li><strong>state variable</strong></li>
 </ol>
+<h2 id="iii1-households">III.1 Households</h2>
+<h3 id="setup">Setup</h3>
 <p>Each household wishes to maximize overall utility $U$, given by</p>
 <p>$$U_0=\int_{0}^{+\infty} e^{-\rho t} \cdot L_t \cdot u(c_t)dt=L_0 \int_{0}^{+\infty} e^{-(\rho-n) t} \cdot u(c_t)dt$$</p>
 <p>where</p>
@@ -257,6 +259,43 @@ So we can get the $s_{gold}$ is the unique value such that</p>
 <li>$\rho$ the rate of time preference. $\rho &gt;0$ means that utilities are valued less the later they are received.</li>
 <li>$u(\cdot)$ instantaneous utility (increasing, concave, Inada)</li>
 </ul>
+<h3 id="budget-constraint">budget constraint</h3>
+<ul>
+<li>$B_t$ :  total asset</li>
+<li>$b_t=\frac{B_t}{L_t}$ : asset per capita</li>
+<li>$r_t$: interest rate</li>
+</ul>
+<p>$$\dot{B_t}=r_tB_t+w_tL_t-C_t$$
+$$\dot{b_t}=(r_t-n)b_t+w_t-c_t$$</p>
+<p>Intertemporal budget constraint</p>
+<p>$$\int_{0}^{+\infty}c_te^{{-\int_{0}^t(r_\tau-n)d\tau}}dt \leq b_0+\int_{0}^{+\infty}w_te^{{-\int_{0}^t(r_\tau-n)d\tau}}dt$$</p>
+<p>non-Ponzi condition</p>
+<p>$$\lim_{T \to \infty}[b_T e^{{-\int_{0}^t(r_\tau-n)d\tau}}dt] \geq 0$$</p>
+<h3 id="households-mission-maximise-utility">Household&rsquo;s mission: maximise utility</h3>
+<p>$$\max_{c_t, b_t} [L_0 \int_{0}^{+\infty} e^{-(\rho-n) t} \cdot u(c_t)dt]$$</p>
+<p>s.c.</p>
+<ul>
+<li>$\forall t, c_t\geq0$</li>
+<li>$\forall t,  \dot{b_t}=(r_t-n)b_t+w_t-c_t$</li>
+<li>$\lim_{T \to \infty}[b_T e^{{-\int_{0}^t(r_\tau-n)d\tau}}dt] \geq 0$</li>
+</ul>
+<p><strong>Hamiltonian</strong></p>
+<ul>
+<li>$b_t$ : state variable - value determined in period $t-1$</li>
+<li>$c_t$ : control variable - value determined in period $t$</li>
+<li>$\lambda_t$ co-variable</li>
+</ul>
+<p>$$H(c_t,b_t,\lambda_t,t)= e^{-(\rho-n) t} u(c_t)+\lambda_t[(r_t-n)b_t+w_t-c_t]$$</p>
+<ul>
+<li>$\forall t\geq 0, \frac{\partial{H}}{\partial{c_t}}=0$</li>
+<li>$\forall t\geq 0, \frac{\partial{H}}{\partial{b_t}}=-\dot{\lambda_t}$</li>
+<li>$\forall t\geq 0, \dot{b_t}=(r_t-n)b_t+w_t-c_t$</li>
+<li>$\lim_{t \to \infty} b_t \lambda_t = 0$</li>
+<li>$\lim_{t \to \infty}[b_t e^{{-\int_{0}^t(r_\tau-n)d\tau}}dt] \geq 0$</li>
+<li>$\forall t \geq 0, c_t \geq 0, \lambda_t \geq 0$</li>
+</ul>
+<h3 id="euler-equation">Euler equation</h3>
+<p>$$$$</p>
 
         </div>
     </div>
