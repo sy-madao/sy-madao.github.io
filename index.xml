@@ -7,9 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Yang Song ©</copyright>
-    <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sy-madao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sy-madao.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Theme Documentation</title>
+      <title>Pizza Margherita</title>
       <link>https://sy-madao.github.io/projects/project2/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -36,21 +36,30 @@
     </item>
     
     <item>
+      <title>What I Talk About When I Talk About Running</title>
+      <link>https://sy-madao.github.io/library/book1/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sy-madao.github.io/library/book1/</guid>
+      <description>&amp;lsquo;Pain is inevitable, suffering is optional&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title>Yang Song</title>
+      <link>https://sy-madao.github.io/about/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sy-madao.github.io/about/</guid>
+      <description>hummm</description>
+    </item>
+    
+    <item>
       <title>Macroeconomics: Growth</title>
       <link>https://sy-madao.github.io/garden/macro-growth/</link>
       <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://sy-madao.github.io/garden/macro-growth/</guid>
       <description>Neoclassical theory</description>
-    </item>
-    
-    <item>
-      <title>Red Panda</title>
-      <link>https://sy-madao.github.io/library/book1/</link>
-      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://sy-madao.github.io/library/book1/</guid>
-      <description>Biology and Conservation of the First Panda</description>
     </item>
     
     <item>
@@ -87,15 +96,6 @@
       
       <guid>https://sy-madao.github.io/garden/growing_example/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Nigalya Ponya</title>
-      <link>https://sy-madao.github.io/about/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://sy-madao.github.io/about/</guid>
-      <description>Himalayan red panda</description>
     </item>
     
   </channel>
