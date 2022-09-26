@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Yang Song ©</copyright>
-    <lastBuildDate>Sun, 25 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sy-madao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sy-madao.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pizza Margherita</title>
       <link>https://sy-madao.github.io/projects/project2/</link>
@@ -41,6 +41,24 @@
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://sy-madao.github.io/projects/project3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Derivatives</title>
+      <link>https://sy-madao.github.io/garden/chap2-wilmott/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sy-madao.github.io/garden/chap2-wilmott/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Products and Markets</title>
+      <link>https://sy-madao.github.io/garden/chap1-wilmott/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sy-madao.github.io/garden/chap1-wilmott/</guid>
       <description></description>
     </item>
     
